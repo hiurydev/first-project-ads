@@ -1,0 +1,161 @@
+body{
+    background: #d4cdc375;
+}
+
+.login-form {
+    width: 340px;
+    margin: 50px auto;
+    font-size: 15px;
+    margin-top: 5%;
+}
+.login-form form {
+    margin-bottom: 15px;
+    background: #f7f7f7;
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+    padding: 30px;
+}
+.login-form h2 {
+    margin: 0 0 15px;
+}
+.form-control, .btn {
+    min-height: 38px;
+    border-radius: 2px;
+}
+.btn {
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.account a {
+    color: #f7f7f7;
+}
+
+.account-custom {
+    margin-top: 30px !important;
+    margin-bottom: -10px !important;
+    color: white !important;
+}
+
+/*!
+ * Start Bootstrap - Simple Sidebar HTML Template (https://startbootstrap.com)
+ * Code licensed under the Apache License v2.0.
+ * For details, see http://www.apache.org/licenses/LICENSE-2.0.
+ */
+
+/* Toggle Styles */
+
+#wrapper {
+    padding-left: 0;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+
+#wrapper.toggled {
+    padding-left: 180px;
+}
+
+#sidebar-wrapper {
+    position: fixed;
+    left: 250px;
+    width: 0;
+    height: 100%;
+    margin-left: -250px;
+    background: #02a446 !important;
+}
+
+#page-content-wrapper {
+    width: 100%;
+    position: absolute;
+    padding: 15px;
+}
+
+/* Sidebar Styles */
+
+.sidebar-nav {
+    position: absolute;
+    top: 0;
+    width: 180px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.sidebar-nav li {
+    text-indent: 5px;
+    line-height: 40px;
+}
+
+.sidebar-nav li a {
+    display: block;
+    text-decoration: none;
+    color: white;
+}
+
+.sidebar-nav li a:hover {
+    text-decoration: none;
+    color: #fff;
+    background: rgba(255,255,255,0.2);
+}
+
+.sidebar-nav li a:active,
+.sidebar-nav li a:focus {
+    text-decoration: none;
+}
+
+@media {
+    #wrapper {
+        padding-left: 180px;
+    }
+
+    #sidebar-wrapper {
+        width: 180px;
+    }
+
+    #page-content-wrapper {
+        padding: 20px;
+        position: relative;
+    }
+}
+
+#navbarDropdown {
+    width: 100% !important;
+}
+
+.dropdown-item {
+    color: black !important;
+    padding: 0 !important;
+}
+
+.vertical-custom {
+    vertical-align: middle !important;
+}
+
+.icone-login {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.icone-tela {
+    width: 80%;
+}
+
+#botaoLogin, #botaoLogin:focus {
+    background: white !important;
+    color: #02a347 !important;
+    border-color: white !important;
+}
+
+#logout{
+    margin-right: 10px !important;
+    float: right !important;
+}
+
+#caixaLogin {
+    background: #02a347 !important;
+}
+
+.a-custom, a-custom:hover, a-custom:focus {
+    color: white !important;
+}
